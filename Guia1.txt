@@ -1,0 +1,13 @@
+Create Table Usuarios(
+IdUsuario Int Identity(1,1) PRIMARY KEY,
+Nombre VARCHAR(40) NOT NULL,
+Apellido Varchar(40) NOT NULL,
+imagenperfil NVARCHAR(max)
+)
+
+
+Insert into Usuarios (Nombre, Apellido, imagenperfil)
+Values
+('Samuel','Argueta','https://files.merca20.com/uploads/2021/04/Captura-de-Pantalla-2021-04-30-a-las-11.31.59.jpg'),
+('Josue', 'Palacios','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrfZvb3045h43HjQY8CU-GlvcJBF6cmGB3AA&s'),
+('Niriel','Lopez','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuzrZfYY0qNwJc-QS5oVLLw-slQZq5dyGFFA&s')
